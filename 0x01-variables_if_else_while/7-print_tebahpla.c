@@ -10,7 +10,7 @@ int main(void)
 {
 	char rev = 'z';
 
-	while (rev => 'a')
+	while (rev >= 'a')
 	{
 		putchar(rev);
 		rev--;
