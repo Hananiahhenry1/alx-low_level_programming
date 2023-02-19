@@ -10,9 +10,8 @@ int main(void)
 
 	while (alp <= 'z')
 	{
-		if (alp == 'q' || alp == 'p')
-			continue;
-		putchar(alp);
+		if ((alp != 'q' && alp != 'p') && alp <= 'z')
+			putchar(alp);
 		alp++;
 	}
 	putchar('\n');
