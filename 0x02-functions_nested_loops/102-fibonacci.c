@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	long i, n = 50;
-	long t1 = 1, t2 = 2;
-	long nextTerm = t1 + t2;
+	int i, n = 50;
+	int t1 = 1, t2 = 2;
+	int nextTerm = t1 + t2;
 
 	for (i = 3; i <= n; ++i)
 	{
