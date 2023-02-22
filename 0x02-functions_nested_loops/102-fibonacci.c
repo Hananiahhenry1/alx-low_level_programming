@@ -9,6 +9,7 @@ int main(void)
 	int t1 = 1, t2 = 2;
 	long nextTerm = t1 + t2;
 
+	print("%d , %d,", t1, t2);
 	for (i = 3; i <= n; ++i)
 	{
 		printf("%ld, ", nextTerm);
