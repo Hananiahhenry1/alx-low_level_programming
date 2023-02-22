@@ -6,7 +6,7 @@ void print_alphabet(void)
 {
 	char alp = 'a';
 
-	for (alp = 'a'; 'a' <= 'z'; alp++)
+	for (alp = 'a'; alp  <= 'z'; alp++)
 		_putchar(alp);
 	_putchar('\n');
 }
