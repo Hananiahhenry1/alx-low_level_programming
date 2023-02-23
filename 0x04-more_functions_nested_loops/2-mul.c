@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * mul - Entry point
- * @a: value 
+ * @a: value
  * @b: value
  * Return: 1 or 2
  */
