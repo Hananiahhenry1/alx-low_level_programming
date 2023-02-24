@@ -7,9 +7,9 @@ void print_most_numbers(void)
 {
 	char a;
 
-	for (a = '0'; a < '9'; a++)
+	for (a = 48; a < 57; a++)
 	{
-		if (!(a == '2' || a == '4'))
+		if (!(a == 50 || a == 52))
 			_putchar(a);
 	}
 	_putchar('\n');
