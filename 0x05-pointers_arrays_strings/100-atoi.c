@@ -10,6 +10,7 @@ int _atoi(char *s)
 	unsigned int ni = 0;
 	int min = 1;
 	int isi = 0;
+
 	while (s[c])
 	{
 		if (s[c] == 45)
