@@ -18,17 +18,16 @@ int _sqrt_recursion(int n)
  */
 int is_sqrt(int n, int i)
 {
-	if (i * i > n)
-	{
+	int test;
+
+	test = i * i;
+	if (test > n)
 		return (-1);
-	}
-	else if (i * i < n)
+	else if (test < n)
 		{
 			++i;
 			return (is_sqrt(n, i));
 		}
 	else
-	{
 		return (i);
-	}
 }
