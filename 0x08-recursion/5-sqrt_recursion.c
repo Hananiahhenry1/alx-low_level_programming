@@ -31,4 +31,4 @@ int is_sqrt(int n, int i)
 	{
 		return (i);
 	}
-}}
+}
