@@ -4,6 +4,7 @@
  * @n: value
  * Return: -1 or value
  */
+int is_sqrt(int n, int i);
 int _sqrt_recursion(int n)
 {
 	return (is_sqrt(n, 1));
