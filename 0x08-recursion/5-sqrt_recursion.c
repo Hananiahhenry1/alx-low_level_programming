@@ -6,10 +6,16 @@
  * is_sqrt - for the recursion
  * @i: test the hyphothesis
  */
+int is_sqrt(int n, int i);
+
 int _sqrt_recursion(int n)
 {
 	return (is_sqrt(n, 1));
 }
+/**
+ * is_sqrt - for the recursion
+ * @i: test for the hypthothesis
+ */
 int is_sqrt(int n, int i)
 {
 	if (i * i > n)
