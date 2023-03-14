@@ -24,8 +24,10 @@ int is_sqrt(int n, int i)
 	if (test > n)
 		return (-1);
 	else if (test == n)
+	{
 		return (i);
-	else
+	}
+	else if (test < n)
 		{
 			++i;
 			return (is_sqrt(n, i));
