@@ -28,6 +28,6 @@ int is_sqrt(int n, int i)
 			++i;
 			return (is_sqrt(n, i));
 		}
-	else
+	else if (test = n)
 		return (i);
 }
