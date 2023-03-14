@@ -23,11 +23,11 @@ int is_sqrt(int n, int i)
 	test = i * i;
 	if (test > n)
 		return (-1);
-	else if (test < n)
+	else if (test == n)
+		return (i);
+	else
 		{
 			++i;
 			return (is_sqrt(n, i));
 		}
-	else if (test == n)
-		return (i);
 }
