@@ -30,6 +30,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	j = 0;
 	while (j < sum)
 	{
-		sum[i] = s2[j];
+		arr[j] = s2[j];
 		j++;
 	}
+	return (arr);
+}
