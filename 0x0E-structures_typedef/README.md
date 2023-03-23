@@ -1,4 +1,4 @@
-#C - STRUCTURES, TYPEDEF
-##General
+# C - STRUCTURES, TYPEDEF
+## General
 * What are structures, when, why and how to use them
 * How to use typedef
