@@ -21,14 +21,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (*s2)
 		j++;
 	if (n >= j)
-		sum = i + j;
+		sum1 = i + j;
 	else
-		sum = i + n;
+		sum1 = i + n;
 	arr = malloc(sizeof(char) * sum1 + 1);
 	if (arr == NULL)
 		return (NULL);
 	j = 0;
-	while (j < sum)
+	while (j < sum1)
 	{
 		arr[j] = s2[j];
 		j++;
